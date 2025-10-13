@@ -1000,6 +1000,10 @@ li {
         display: none;
     }
 
+    .sec-6-left-box{
+        width:100%;
+    }
+
     .main-heading,
     .main-heading-2 {
         text-align: center;
@@ -1039,27 +1043,10 @@ li {
         place-self: center;
     }
 
-    .site-footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
 
-    }
-
-    .footer-contact{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        
-    }
-
-    .footer-section{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
 
 }
+
 
 
 
