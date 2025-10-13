@@ -991,6 +991,14 @@ li {
         font-size: 16px;
 
     }
+    .contact-btn{
+        place-self: center;
+        
+    }
+
+    .sec-6-right-box{
+        display: none;
+    }
 
     .main-heading,
     .main-heading-2 {
@@ -1031,6 +1039,25 @@ li {
         place-self: center;
     }
 
+    .site-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    }
+
+    .footer-contact{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        
+    }
+
+    .footer-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
 
 }
 
