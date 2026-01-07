@@ -15,10 +15,6 @@ const openerr = 40;
 const closedd = -205;
 
 button.addEventListener("click", function () {
-  let boddy = document.getElementByTagName("body");
-boddy.addEventListener("click",()=>{
-  ul.style.left = closedd + "px";
-}
     if (ul.offsetLeft === openerr) {
         ul.style.left = closedd + "px";
     } else {
@@ -29,5 +25,6 @@ boddy.addEventListener("click",()=>{
     }
 
 }); 
+
 
 
