@@ -22,12 +22,11 @@ button.addEventListener("click", function () {
     }
     if (ul.offsetLeft === openerr) {
         ul.style.left = closed + "px";
-    }
-
-
-}); 
-
-let boddy = document.getElementByTagName("body");
+      let boddy = document.getElementByTagName("body");
 boddy.addEventListener("click",()=>{
   ul.style.left = closedd + "px";
 }
+    }
+
+}); 
+
