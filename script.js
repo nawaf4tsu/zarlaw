@@ -1,4 +1,4 @@
-const lenis = new Lenis();
+const lenis = new Lenis(); 
 
 function raf(time) {
   lenis.raf(time);
@@ -15,6 +15,10 @@ const openerr = 40;
 const closedd = -205;
 
 button.addEventListener("click", function () {
+  let boddy = document.getElementByTagName("body");
+boddy.addEventListener("click",()=>{
+  ul.style.left = closedd + "px";
+}
     if (ul.offsetLeft === openerr) {
         ul.style.left = closedd + "px";
     } else {
@@ -22,11 +26,8 @@ button.addEventListener("click", function () {
     }
     if (ul.offsetLeft === openerr) {
         ul.style.left = closed + "px";
-      let boddy = document.getElementByTagName("body");
-boddy.addEventListener("click",()=>{
-  ul.style.left = closedd + "px";
-}
     }
 
 }); 
+
 
