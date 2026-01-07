@@ -24,4 +24,10 @@ button.addEventListener("click", function () {
         ul.style.left = closed + "px";
     }
 
+
 }); 
+
+let boddy = document.getElementByTagName("body");
+boddy.addEventListener("click",()=>{
+  ul.style.left = closedd + "px";
+}
